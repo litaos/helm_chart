@@ -18,11 +18,9 @@ myrepo	https://771417573.github.io/helm_chart/
 
 3、搜索chart包
 ```
-# helm search repo
-NAME                              	CHART VERSION	APP VERSION	DESCRIPTION                                   
-myrepo/edgex                      	0.1.0        	1.0        	A Helm chart for EdgeX Geneva                 
-myrepo/kubernetes-dashboard       	2.3.0        	2.0.3      	General-purpose web UI for Kubernetes clusters
-myrepo/test                       	0.1.0        	1.16.0     	A Helm chart for Kubernetes 
+# helm search repo myrepo
+NAME            CHART VERSION   APP VERSION     DESCRIPTION
+myrepo/jenkins  4.1.13          2.346.2         Jenkins - Build great things at any scale! The ...
 ```
 
 4、安装chart包
