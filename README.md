@@ -30,3 +30,7 @@ myrepo/jenkins  4.1.13          2.346.2         Jenkins - Build great things at 
 
 xxx为relaese名字
 
+更新仓库请在根目录下执行
+```
+# helm repo index --url https://771417573.github.io/helm-chart/ .
+```
