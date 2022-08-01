@@ -3,7 +3,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 7.17.3
-    created: "2022-08-01T17:49:51.484270057+08:00"
+    created: "2022-08-01T18:19:58.697460475+08:00"
     description: Official Elastic helm chart for Elasticsearch
     digest: f22827d306eb3002c5fc3a02a7d98b23e727691cae90897a03fe7dbe277be851
     home: https://github.com/elastic/helm-charts
@@ -15,12 +15,12 @@ entries:
     sources:
     - https://github.com/elastic/elasticsearch
     urls:
-    - https://771417573.github.io/helm-chart/efk/elasticsearch-7.17.tgz
+    - https://litaos.github.io/helm-chart/efk/elasticsearch-7.17.tgz
     version: 7.17.3
   fluentd:
   - apiVersion: v2
     appVersion: v1.12.4
-    created: "2022-08-01T17:49:51.485117201+08:00"
+    created: "2022-08-01T18:19:58.698305734+08:00"
     description: A Helm chart for Kubernetes
     digest: 43956b55d00c6e8fb9d2c22f903e77e022b5f90c9b4e3c5661701a04f06da9b9
     home: https://www.fluentd.org/
@@ -35,7 +35,7 @@ entries:
     - https://github.com/fluent/fluentd/
     - https://github.com/fluent/fluentd-kubernetes-daemonset
     urls:
-    - https://771417573.github.io/helm-chart/efk/fluentd-1.12-es7.tgz
+    - https://litaos.github.io/helm-chart/efk/fluentd-1.12-es7.tgz
     version: 0.3.7
   jenkins:
   - annotations:
@@ -55,7 +55,7 @@ entries:
           url: https://www.jenkins.io/
     apiVersion: v2
     appVersion: 2.346.2
-    created: "2022-08-01T17:49:51.488584731+08:00"
+    created: "2022-08-01T18:19:58.70190543+08:00"
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
@@ -80,12 +80,12 @@ entries:
     - https://github.com/maorfr/kube-tasks
     - https://github.com/jenkinsci/configuration-as-code-plugin
     urls:
-    - https://771417573.github.io/helm-chart/jenkins/jenkins-4.1.13.tgz
+    - https://litaos.github.io/helm-chart/jenkins/jenkins-4.1.13.tgz
     version: 4.1.13
   kibana:
   - apiVersion: v1
     appVersion: 7.17.3
-    created: "2022-08-01T17:49:51.485812974+08:00"
+    created: "2022-08-01T18:19:58.698935699+08:00"
     description: Official Elastic helm chart for Kibana
     digest: 557b882a0333de57d29c24f447da2f87cd7329c30002ba5d7ac6103a285c27a1
     home: https://github.com/elastic/helm-charts
@@ -97,12 +97,12 @@ entries:
     sources:
     - https://github.com/elastic/kibana
     urls:
-    - https://771417573.github.io/helm-chart/efk/kibana-7.17.tgz
+    - https://litaos.github.io/helm-chart/efk/kibana-7.17.tgz
     version: 7.17.3
   nfs-client-provisioner:
   - apiVersion: v1
     appVersion: 3.1.0
-    created: "2022-08-01T17:49:51.48891533+08:00"
+    created: "2022-08-01T18:19:58.702237947+08:00"
     deprecated: true
     description: DEPRECATED - nfs-client is an automatic provisioner that used your
       *already configured* NFS server, automatically creating Persistent Volumes.
@@ -115,6 +115,6 @@ entries:
     sources:
     - https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client
     urls:
-    - https://771417573.github.io/helm-chart/nfs/nfs-client-provisioner-1.2.11.tgz
+    - https://litaos.github.io/helm-chart/nfs/nfs-client-provisioner-1.2.11.tgz
     version: 1.2.11
-generated: "2022-08-01T17:49:51.482845523+08:00"
+generated: "2022-08-01T18:19:58.695976882+08:00"
