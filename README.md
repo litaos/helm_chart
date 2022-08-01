@@ -1,19 +1,19 @@
 # helm-chart
 
-## helm的chart仓库地址为：https://771417573.github.io/helm_chart/
+## helm的chart仓库地址为：https://litaos.github.io/helm_chart/
 
 ## 本Chart仓库的使用方法
 
 1、添加chart仓库
 ```
-# helm repo add myrepo https://771417573.github.io/helm_chart/
+# helm repo add myrepo https://litaos.github.io/helm_chart/
 ```
 
 2、添加成功
 ```
 # helm repo list
 NAME  	URL                                   
-myrepo	https://771417573.github.io/helm_chart/
+myrepo	https://litaos.github.io/helm_chart/
 ```
 
 3、搜索chart包
@@ -32,5 +32,5 @@ xxx为relaese名字
 
 更新仓库请在根目录下执行
 ```
-# helm repo index --url https://771417573.github.io/helm-chart/ .
+# helm repo index --url https://litaos.github.io/helm-chart/ .
 ```
