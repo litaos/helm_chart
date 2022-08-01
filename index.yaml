@@ -3,7 +3,7 @@ entries:
   elasticsearch:
   - apiVersion: v1
     appVersion: 7.17.3
-    created: "2022-07-15T17:20:33.318824511+08:00"
+    created: "2022-08-01T17:49:51.484270057+08:00"
     description: Official Elastic helm chart for Elasticsearch
     digest: f22827d306eb3002c5fc3a02a7d98b23e727691cae90897a03fe7dbe277be851
     home: https://github.com/elastic/helm-charts
@@ -20,7 +20,7 @@ entries:
   fluentd:
   - apiVersion: v2
     appVersion: v1.12.4
-    created: "2022-07-15T17:20:33.319692502+08:00"
+    created: "2022-08-01T17:49:51.485117201+08:00"
     description: A Helm chart for Kubernetes
     digest: 43956b55d00c6e8fb9d2c22f903e77e022b5f90c9b4e3c5661701a04f06da9b9
     home: https://www.fluentd.org/
@@ -55,7 +55,7 @@ entries:
           url: https://www.jenkins.io/
     apiVersion: v2
     appVersion: 2.346.2
-    created: "2022-07-15T17:20:33.324400693+08:00"
+    created: "2022-08-01T17:49:51.488584731+08:00"
     description: Jenkins - Build great things at any scale! The leading open source
       automation server, Jenkins provides hundreds of plugins to support building,
       deploying and automating any project.
@@ -85,7 +85,7 @@ entries:
   kibana:
   - apiVersion: v1
     appVersion: 7.17.3
-    created: "2022-07-15T17:20:33.320334449+08:00"
+    created: "2022-08-01T17:49:51.485812974+08:00"
     description: Official Elastic helm chart for Kibana
     digest: 557b882a0333de57d29c24f447da2f87cd7329c30002ba5d7ac6103a285c27a1
     home: https://github.com/elastic/helm-charts
@@ -99,4 +99,22 @@ entries:
     urls:
     - https://771417573.github.io/helm-chart/efk/kibana-7.17.tgz
     version: 7.17.3
-generated: "2022-07-15T17:20:33.317361681+08:00"
+  nfs-client-provisioner:
+  - apiVersion: v1
+    appVersion: 3.1.0
+    created: "2022-08-01T17:49:51.48891533+08:00"
+    deprecated: true
+    description: DEPRECATED - nfs-client is an automatic provisioner that used your
+      *already configured* NFS server, automatically creating Persistent Volumes.
+    digest: b96999f646c3254ead8c56b2202190bcd688d5dc73e85c38ea14f1c51d810bdd
+    home: https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client
+    keywords:
+    - nfs
+    - storage
+    name: nfs-client-provisioner
+    sources:
+    - https://github.com/kubernetes-incubator/external-storage/tree/master/nfs-client
+    urls:
+    - https://771417573.github.io/helm-chart/nfs/nfs-client-provisioner-1.2.11.tgz
+    version: 1.2.11
+generated: "2022-08-01T17:49:51.482845523+08:00"
